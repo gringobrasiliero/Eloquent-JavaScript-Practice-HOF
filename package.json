@@ -1,0 +1,19 @@
+{
+  "name": "eloquent-js-practice",
+  "version": "1.0.0",
+  "description": "Eloquent JavaScript Practice HOF",
+  "main": "exercise1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gringobrasiliero/Eloquent-JavaScript-Practice-HOF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gringobrasiliero/Eloquent-JavaScript-Practice-HOF/issues"
+  },
+  "homepage": "https://github.com/gringobrasiliero/Eloquent-JavaScript-Practice-HOF#readme"
+}
