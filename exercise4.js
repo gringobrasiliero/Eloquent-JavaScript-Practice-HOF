@@ -42,7 +42,7 @@ function characterScript(code) {
 // Function I wrote for the exercise
 function dominantDirection(text) {
   let counted = countBy(text, char => {
-    let script = characterScript(char.codePointAt(0)); //codePointAt() returns the unicode code point value
+    let script = characterScript(char.codePointAt(0)); 
     return script ? script.direction : "none"; //returns the direction of each char of the string
   }).filter(({name}) => name != "none"); // filters out the characters that have no direction
 return counted.reduce((a,b) => a.count > b.count ? a : b).name; // returns the dominant direction.

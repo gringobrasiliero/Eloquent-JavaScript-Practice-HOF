@@ -12,7 +12,8 @@ function withEmail(array) {
 
 withEmail(customers) //['Ian']
 
-
+const email = customers.filter(customer => customer.email)
+console.log(email)
 // Grab customers
 // Iterate through each customers
 // check for email

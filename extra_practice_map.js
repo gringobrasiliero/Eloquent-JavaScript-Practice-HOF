@@ -48,3 +48,12 @@ console.log(divideAgeByTwo)
 const squareAndDivideByTwo = ages.map(age => Math.sqrt(age))
                                 .map(age => age/ 2)
 console.log(squareAndDivideByTwo)
+
+
+function doubler(x) {
+  return x * 2;
+}
+
+const doubledAges = ages.map(age => doubler(age))
+
+console.log(doubledAges)
